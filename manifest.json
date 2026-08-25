@@ -1,20 +1,20 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "channel": "stable",
-  "changelog": "Kurzer Satz, was neu ist",
-  "minCapabilitiesVersion": 3,
+  "changelog": "Sicherheitskorrekturen (OTA, Schlüsselerzeugung) und einheitliche englische Bezeichner (Layout-Farben -black/-white).",
+  "minCapabilitiesVersion": 4,
   "targets": {
     "ESP32-S2": {
-      "url": "geardock-0.4.0-s2.bin",
-      "sha256": "80b2c0cfbd14b17fc8de46be91693431093f7e9ebb81c29da50553197ed78dce",
-      "signature": "ui4CKUwSSKwbJsIBcVezhmQ3zPeTILPlYzAwZsG7rc2rGrCmXVqPzvIU2elg6QddcDp1+pgsIGPpippkws7jAw==",
-      "sizeBytes": 1088800
+      "url": "geardock-0.5.0-s2.bin",
+      "sha256": "d8456d6ae0dbe3ca37ab5fb75cdb6aa3b4adf7d2ac87526c4847fa125b3bdcf6",
+      "signature": "trZkJF6EZ2YUeiPdADj67XiogspC4msWwEw0WrP324Q4EXK5Dyj3xuhQcNQdna1h94EeWf53wCUl/hEkWW8fCQ==",
+      "sizeBytes": 1090816
     },
     "ESP32-C3": {
-      "url": "geardock-0.4.0-c3.bin",
-      "sha256": "2ffef9dfcaf3febcf5db2692409f24040beffe171a9533352c2c47081b1a07f9",
-      "signature": "g7Mm808kl2JDrY6AG88xn8SGFqTY54tdv9rnshLRXETAvYzUpMkEJmKF7n7kUtox1FITQMa5ZDwPADsrQ0JmAw==",
-      "sizeBytes": 1204560
+      "url": "geardock-0.5.0-c3.bin",
+      "sha256": "90bac04e5ef2591d165e5ff66ec93b2573155d40815b322496507592229d644c",
+      "signature": "GNxy/JTWRs6wt+p4nSbmcdlcek8F3R+zVaqjgf1SZqDolif0MFAlww89haduWZwsfnzDUHNsPz9KVvZdXrzcAg==",
+      "sizeBytes": 1206736
     }
   }
 }
